@@ -1,0 +1,12 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(shapes_background.png);
+    font-family: ubuntu, fira-sans;
+    color: white;
+    text-align: center;
+}
+h1 {
+    height: 100%;
+    line-height: 100%;
+}
