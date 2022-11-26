@@ -1,4 +1,4 @@
-if (localStorage.getItem("accepted") == true) {
+if (localStorage.getItem("accepted") == "true") {
     location.href = "https://learn.k.vu/lessons/"
 }
 function letsgo() {
