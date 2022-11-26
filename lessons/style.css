@@ -1,0 +1,8 @@
+body {
+    background-size: cover;
+    background-image: url(shapes_background.png);
+    font-family: ubuntu, fira-sans, 'Segoe UI';
+    color: white;
+    text-align: left;
+    margin: 10%;
+}

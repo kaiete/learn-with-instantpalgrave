@@ -1,9 +1,20 @@
 body {
     background-size: cover;
     background-image: url(shapes_background.png);
-    font-family: ubuntu, fira-sans;
+    font-family: ubuntu, fira-sans, 'Segoe UI';
     color: white;
     text-align: center;
+}
+#iagree {
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    width: 100%;
+}
+button {
+    outline: none;
+    font-family: inherit;
+    margin-left: 5px;
 }
 h1 {
     height: 100%;
