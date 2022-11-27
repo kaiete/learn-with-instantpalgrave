@@ -1,6 +1,3 @@
-if (localStorage.getItem("accepted") == "true") {
-    location.href = "https://learn.k.vu/lessons/"
-}
 function letsgo() {
     let x = document.getElementById("continue")
     var agreed = x.checked
