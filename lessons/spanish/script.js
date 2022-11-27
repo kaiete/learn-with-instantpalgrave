@@ -1,6 +1,5 @@
 function check(x) {
-    x = "q" + x
-    let y = document.getElementById(x).textContent
+    let y = document.getElementById(x).value
     if (y.toLowerCase == "hola") {
         alert("Correct!")
     } else {
