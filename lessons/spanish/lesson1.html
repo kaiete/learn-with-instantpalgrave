@@ -7,8 +7,9 @@
     <title>Lesson 1 | Palgrave Learn</title>
     <link rel="stylesheet" href="/lessons/style.css">
     <script>
+    const questions = ["q1"]
     function check(x) {
-        let y = document.getElementById(x).value
+        let y = document.getElementById(x in questions).value
         if (y.toLowerCase == "hola") {
             alert("Correct!")
         } else {
@@ -26,6 +27,6 @@
         <i>Type it below, with no punctuation.</i>
     </p>
     <input type="text" name="" id="q1" spellcheck="false" placeholder="Type your answer...">
-    <button onclick="check('q1')">Check</button>
+    <button onclick="check(0)">Check</button>
 </body>
 </html>
